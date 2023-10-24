@@ -1,0 +1,349 @@
+<mxfile host="app.diagrams.net" modified="2023-09-21T12:48:11.715Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7z3NGWvOxhOUp6IuNLLo" version="21.8.0" type="device">
+  <diagram name="Page-1" id="1NhDBKc9ygP91eaCtZ-f">
+    <mxGraphModel dx="840" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-1" value="&lt;b&gt;Reference&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="830" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOfUGrPg9TPWI9NZ_PXL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-2" target="DIFsz_h2lelxAk_UpNV7-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-2" value="&lt;b&gt;FASTA&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="740" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-3" value="&lt;b&gt;GENBANK&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="910" y="149.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-2" target="DIFsz_h2lelxAk_UpNV7-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="370" as="sourcePoint" />
+            <mxPoint x="890" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-3" target="DIFsz_h2lelxAk_UpNV7-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="160" as="sourcePoint" />
+            <mxPoint x="890" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-3" target="DIFsz_h2lelxAk_UpNV7-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="370" as="sourcePoint" />
+            <mxPoint x="940" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-27" target="DIFsz_h2lelxAk_UpNV7-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="270" as="sourcePoint" />
+            <mxPoint x="890" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-13" value="gbmunge&lt;br&gt;(parse_genbank.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="830" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-14" value="&lt;b&gt;Query&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-15" value="&lt;b&gt;FASTA&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOfUGrPg9TPWI9NZ_PXL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-16" target="DIFsz_h2lelxAk_UpNV7-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-16" value="&lt;b&gt;FASTQ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="500" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-15" target="DIFsz_h2lelxAk_UpNV7-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="480" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+            <mxPoint x="480" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-25" target="DIFsz_h2lelxAk_UpNV7-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="270" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="390" />
+              <mxPoint x="490" y="390" />
+              <mxPoint x="490" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-25" value="?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;MAPPING&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-27" value="&lt;b&gt;Process&lt;br&gt;Genbank File&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="830" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-30" value="Summary&lt;br&gt;Stats" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=60;" parent="1" vertex="1">
+          <mxGeometry x="80" y="134" width="210" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-32" value="- Ambiguous Bases&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- IUPAC code proportions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Sequence Lengths&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Avg., min, max,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mode&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;contig count&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="DIFsz_h2lelxAk_UpNV7-30" vertex="1">
+          <mxGeometry x="60" y="1" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-15" target="DIFsz_h2lelxAk_UpNV7-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="370" as="sourcePoint" />
+            <mxPoint x="480" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ALIGNMENT&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="580" y="410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-37" value="minimap2&lt;br&gt;fatovcf&lt;br&gt;(multi_sequence_alignment.py)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="580" y="470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-2" target="DIFsz_h2lelxAk_UpNV7-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-15" target="DIFsz_h2lelxAk_UpNV7-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="225" as="sourcePoint" />
+            <mxPoint x="370" y="485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-40" value="&lt;b&gt;VCF&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-37" target="DIFsz_h2lelxAk_UpNV7-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-42" value="Summary&lt;br&gt;Stats" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=60;" parent="1" vertex="1">
+          <mxGeometry x="80" y="574.5" width="220" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-45" value="- proportion of gaps&lt;br&gt;- samples removed due to&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;poor alignment" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="DIFsz_h2lelxAk_UpNV7-42" vertex="1">
+          <mxGeometry x="70" y="15" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-40" target="DIFsz_h2lelxAk_UpNV7-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="620.5" as="sourcePoint" />
+            <mxPoint x="570" y="760.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BUILD PHYLOGENETIC TREE&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="550" y="720" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-47" value="Usher&lt;br&gt;(build_phylogenetic_tree.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="550" y="780" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-40" target="DIFsz_h2lelxAk_UpNV7-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="510" as="sourcePoint" />
+            <mxPoint x="480" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-50" value="&lt;b&gt;PB Tree&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-47" target="DIFsz_h2lelxAk_UpNV7-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669.5" y="840" as="sourcePoint" />
+            <mxPoint x="669.5" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-52" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PB Tree Genotyping Annotation&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1040" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-53" value="matUtils&lt;br&gt;(annotate_phylogenetic_tree.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-50" target="DIFsz_h2lelxAk_UpNV7-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669.5" y="970" as="sourcePoint" />
+            <mxPoint x="669.5" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-58" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Genotyping&lt;/b&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="900" y="890" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-59" value="Manual Review of Tree?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="900" y="950" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DIFsz_h2lelxAk_UpNV7-50" target="DIFsz_h2lelxAk_UpNV7-58" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-61" value="&lt;b&gt;GENOTYPING&lt;br&gt;METADATA&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="960" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-59" target="DIFsz_h2lelxAk_UpNV7-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-61" target="DIFsz_h2lelxAk_UpNV7-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-64" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="740" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-65" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="920" y="225" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="770" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-67" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=5;strokeColor=#FF8000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1215" as="sourcePoint" />
+            <mxPoint x="1140" y="1215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-69" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Genotyping&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Pipeline to add genotyping information to phylogenetic trees&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="880" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=5;strokeColor=#FF8000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="39" y="860" as="sourcePoint" />
+            <mxPoint x="1139" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-71" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Phylogenetic Tree Generation&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Pipeline to create phylogenetic tree&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="35" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-72" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Adding Additional Samples&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Pipeline to incorporate additional samples into existing phylogenetic tree (pb file)&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1270" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-73" value="&lt;b&gt;ADDITIONAL &lt;br&gt;FASTA SEQUENCE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Add Sample to PB Tree&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-75" value="matUtils&lt;br&gt;(adding_sample_to_usher_tree.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1420" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-76" value="&lt;b&gt;Annotate PB Tree&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-53" target="DIFsz_h2lelxAk_UpNV7-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669.41" y="1160" as="sourcePoint" />
+            <mxPoint x="669.41" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="669.41" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DIFsz_h2lelxAk_UpNV7-73" target="DIFsz_h2lelxAk_UpNV7-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1670" as="sourcePoint" />
+            <mxPoint x="550" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-81" value="&lt;b&gt;Updated PB Tree&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-83" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-75" target="DIFsz_h2lelxAk_UpNV7-81" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1480" as="sourcePoint" />
+            <mxPoint x="670" y="1550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="669.41" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DIFsz_h2lelxAk_UpNV7-81" target="DIFsz_h2lelxAk_UpNV7-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1530" as="sourcePoint" />
+            <mxPoint x="550" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1580" />
+              <mxPoint x="480" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-76" target="DIFsz_h2lelxAk_UpNV7-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1530" as="sourcePoint" />
+            <mxPoint x="550" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-88" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Infer Genotype of New Samples&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1680" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-89" value="matUtils&lt;br&gt;(annotate_phylogenetic_tree.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1740" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-81" target="DIFsz_h2lelxAk_UpNV7-88" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1610" as="sourcePoint" />
+            <mxPoint x="710" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="669.41" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DIFsz_h2lelxAk_UpNV7-88" target="DIFsz_h2lelxAk_UpNV7-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1530" as="sourcePoint" />
+            <mxPoint x="550" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-95" value="Summary&lt;br&gt;Stats" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=60;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1664.5" width="230" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-96" value="- Metric for how accurate&amp;nbsp;&lt;br&gt;genotyping inference is?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="DIFsz_h2lelxAk_UpNV7-95" vertex="1">
+          <mxGeometry x="65" y="25.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DIFsz_h2lelxAk_UpNV7-88" target="DIFsz_h2lelxAk_UpNV7-95" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1620" as="sourcePoint" />
+            <mxPoint x="390" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-98" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="760" y="1030" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIFsz_h2lelxAk_UpNV7-99" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="760" y="1340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kq52x6a7TBh0rjCPP67-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1654" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kq52x6a7TBh0rjCPP67-2" value="(summarise_phylogenetic_annotations.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1755.5" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kq52x6a7TBh0rjCPP67-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1654" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

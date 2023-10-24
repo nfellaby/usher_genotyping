@@ -1,0 +1,27 @@
+bio==1.5.9
+biopython==1.81
+biothings-client==0.3.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
+coverage==7.2.7
+gprofiler-official==1.0.0
+idna==3.4
+importlib-resources==6.0.0
+iniconfig==2.0.0
+mygene==3.2.2
+numpy==1.25.1
+packaging==23.1
+pandas==2.0.3
+platformdirs==3.10.0
+pluggy==1.2.0
+pooch==1.7.0
+pytest==7.4.0
+pytest-cov==4.1.0
+python-dateutil==2.8.2
+pytz==2023.3
+requests==2.31.0
+six==1.16.0
+tqdm==4.65.0
+tzdata==2023.3
+urllib3==2.0.4
+-e git+https://gitlab.phe.gov.uk/gpha/tools/usher_genotype.git@9e1013bb118afd49886b9ac84f30b56fae027553#egg=usher_genotyping&subdirectory=usher_genotyping
