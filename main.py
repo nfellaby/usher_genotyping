@@ -1,11 +1,8 @@
 import argparse
-import sys
 import os
-import logging
 import glob
 from usher_genotyping.src.logger import log, setup_logger
 import usher_genotyping.src.parse_genbank_ref as pgr
-import usher_genotyping.src.parse_gff_ref as pgff
 import usher_genotyping.src.multi_sequence_alignment as msa
 import usher_genotyping.src.build_phylogenetic_tree as bpt
 import usher_genotyping.src.annotate_phylogenetic_tree as apt
@@ -13,12 +10,8 @@ import usher_genotyping.src.summarise_phylogenetic_annotations as spa
 import usher_genotyping.src.adding_sample_to_usher_tree as astut
 import subprocess
 
-try:
-    from .version import version as __version__
-    from .version import version_tuple
-except ImportError:
-    __version__ = "0.01"
-    version_tuple = (0, 0, "unknown version")
+__version__ = "0.01"
+version_tuple = (0, 0, "unknown version")
 
 
 
