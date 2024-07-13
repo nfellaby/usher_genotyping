@@ -1,0 +1,40 @@
+02/08/2023 11:36:07 INFO: ======= Director genotypting_out not present. Creating directory
+02/08/2023 11:37:12 INFO: ======= Directory genotypting_out not present. Creating directory
+02/08/2023 11:37:48 INFO: "======= Saving files in directory genotypting_out
+02/08/2023 11:37:48 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:04:05 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:04:05 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:04:05 WARNING: ======= Reference is missing 
+02/08/2023 12:04:05 WARNING: ======= Reference is missing 
+02/08/2023 12:04:05 WARNING: ======= Reference is missing 
+02/08/2023 12:04:05 INFO: The following items were presnet in the reference metadat: date, accessions, country_original, countrycode, collection_date
+02/08/2023 12:05:36 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:05:36 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:05:36 WARNING: ======= Reference is missing metadata host
+02/08/2023 12:05:36 WARNING: ======= Reference is missing metadata country
+02/08/2023 12:05:36 WARNING: ======= Reference is missing metadata collection_original
+02/08/2023 12:05:36 INFO: The following items were presnet in the reference metadat: date, accessions, country_original, countrycode, collection_date
+02/08/2023 12:05:51 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:05:51 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:05:51 WARNING: ======= Reference is missing metadata accession
+02/08/2023 12:05:51 WARNING: ======= Reference is missing metadata country_original
+02/08/2023 12:05:51 WARNING: ======= Reference is missing metadata countrycode
+02/08/2023 12:05:51 WARNING: ======= Reference is missing metadata collection_date
+02/08/2023 12:05:51 INFO: The following items were presnet in the reference metadat: date, host, country, collection_original
+02/08/2023 12:06:09 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:06:09 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:06:09 WARNING: ======= Reference is missing metadata host
+02/08/2023 12:06:09 WARNING: ======= Reference is missing metadata country
+02/08/2023 12:06:09 WARNING: ======= Reference is missing metadata collection_original
+02/08/2023 12:06:09 INFO: The following items were presnet in the reference metadat: date, accessions, country_original, countrycode, collection_date
+02/08/2023 12:07:32 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:07:32 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:07:39 INFO: ======= Saving files in directory genotypting_out
+02/08/2023 12:07:39 INFO: ======= importing genbank file ../../test_data/A.goose.Guangdong.1.1996_HA.gb
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata host
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata country_original
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata country
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata countrycode
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata collection_original
+02/08/2023 12:07:39 WARNING: ======= Reference is missing metadata collection_date
+02/08/2023 12:07:39 INFO: The following items were presnet in the reference metadat: date, accessions
